@@ -8,8 +8,9 @@
 }
 
 nav,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.fa-github {font-size: 2rem; color: #249CBC;}
+.fa-github {font-size: 2rem; color: var(--blue);}
 html { font-size: 1rem; }
+
 @include media-breakpoint-up(sm) {
   html { font-size: 1.2rem; }}
 @include media-breakpoint-up(md) {
@@ -17,7 +18,8 @@ html { font-size: 1rem; }
 @include media-breakpoint-up(lg) {
   html { font-size: 1.6rem; }}
 h1,button {font-family: "Montserrat", sans-serif}
-footer { background-color: #D1665A;}
+footer { background-color: var(--red);}
+.fa-facebook-official, .fa-instagram, .fa-snapchat, .fa-twitter, .fa-linkedin { font-size: 2rem; color: var(--slate)}
 
 /* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
