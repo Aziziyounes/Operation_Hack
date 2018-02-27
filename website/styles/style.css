@@ -1,0 +1,37 @@
+:root{
+  --blue: #249CBC;
+  --red: #D1665A;
+  --slate: #47566B;
+  --gray: #9BAAB5;
+  --lgray: #D0D5DA;
+  --mist: #F0F2F2;
+}
+
+nav,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.fa-github {font-size: 2rem; color: var(--blue);}
+html { font-size: 1rem; }
+
+@include media-breakpoint-up(sm) {
+  html { font-size: 1.2rem; }}
+@include media-breakpoint-up(md) {
+  html { font-size: 1.4rem; }}
+@include media-breakpoint-up(lg) {
+  html { font-size: 1.6rem; }}
+h1,button {font-family: "Montserrat", sans-serif}
+footer { background-color: var(--red);}
+.fa-facebook-official, .fa-instagram, .fa-snapchat, .fa-twitter, .fa-linkedin { font-size: 3.5rem; color: var(--slate)}
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
